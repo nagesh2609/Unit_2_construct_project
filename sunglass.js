@@ -388,11 +388,13 @@ function display(data) {
         var image = document.createElement("img");
         image.src = el.image;
 
-        var h3 = document.createElement("h5");
+        var h3 = document.createElement("p");
         h3.textContent = el.brand;
+        h3.setAttribute("id","sectionhead")
 
-        var h1 = document.createElement("h4");
+        var h1 = document.createElement("p");
         h1.textContent = el.name;
+        h1.setAttribute("id","sectioname")
 
         var p1 = document.createElement("p")
         p1.textContent = `$${el.original_price}`;
@@ -407,7 +409,7 @@ function display(data) {
 
         var disc = document.createElement("p");
         disc.textContent = `Save ${Math.round((el.offer_price - el.original_price) / el.offer_price * 100)}%`
-        disc.setAttribute("class","disc")
+        disc.setAttribute("id","disc")
         
         var div3 = document.createElement("div");
         div3.setAttribute("id", "price")

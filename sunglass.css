@@ -13,7 +13,29 @@
     /* border: 1px solid; */
     text-align: center;
 }
-
+#sectionhead{
+    font-size: 13px;
+    font-family: futura,sans-serif;
+    color:#747474;
+    letter-spacing: 0.001em;
+    font-weight: bolder;
+    font-stretch:ultra-condensed;
+    margin-bottom: 10px;
+}
+#right>div{
+    text-align: center;
+    border:0.2px solid rgb(250, 247, 247);
+    border-bottom: 0px;
+}
+#sectionname{
+    width:90%;
+    margin:auto;
+    font-size: 11px;
+    font-family: futura,sans-serif;
+    font-weight: lighter;
+    color:#333333;
+    margin-top:-10px
+}
 #left {
     width: 15%;
     /* border: 1px solid; */
@@ -35,8 +57,12 @@
 }
 
 #price {
-    display: flex;
+   
+    width:90%;
+    margin:auto;
+    display:flex;
     justify-content: space-around;
+    margin-top:8px;
     color: gray;
     
 }
@@ -70,6 +96,14 @@ h5 {
 h1{
     text-align: center;
 }
-.disc{
+#disc{
     color: rgb(245, 24, 61);
+    font-size: 11px;;
+    
+    font-family: futura,sans-serif;
+    font-weight: lighter;
+    margin-top:5px;
+    letter-spacing: 0.012em;
+    font-stretch:expanded;
+    font-style: inherit;
 }
