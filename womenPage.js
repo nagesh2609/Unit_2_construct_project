@@ -36,7 +36,7 @@ var data = [
     {
         image: " https://cdn.shopify.com/s/files/1/0248/3473/6191/products/XmtElrvBsveYwkYKbaWQcRqq0NM2fKXl-25_d9e6cd23-fe66-428c-b10c-3417fde1f913_large.jpg?v=1651307960",
         brand: "BCBGMAXAZRIA",
-        name: "BCBG MAX AZRIA WOMENS SNAKE PRINT HI-LOW WRAP DRESS",
+        name: "BCBG MAX AZRIA WOMENS SNAKE PRINT HI-LOW WRAPED DRESS",
         original_price: "258",
         offer_price: "366.99",
         color:"Multi"

@@ -2,7 +2,7 @@ var data = [
     {
         image: " https://cdn.shopify.com/s/files/1/0248/3473/6191/products/Link-2-0869O-1_large.jpg?v=1628917529",
         brand: "DIOR",
-        name: "DIOR GEOMETRIC SUNGLASSES LINK 2 08690 DARK HAVANA/GOLD 59MM",
+        name: "DIOR GEOMETRIC SUNGLASSES LINK 25R 08690 DARK HAVANA/GOLD 59MM",
         original_price: "415",
         offer_price: "500",
         color:"Black"
